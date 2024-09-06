@@ -6,11 +6,8 @@ import prompt
 
 def main():
     print('Welcome to the Brain Games!')
-    welcome_user()
+    name = welcome_user()
     print("Answer 'yes' if number even otherwise answer 'no'.")
-    random_numbers = randint(0, 1000000)
-    print(f'Question: {random_numbers}')
-    players_answer = prompt.string('Your answer: ')
     chek = 0
 
     for ckek in range(3):
@@ -25,11 +22,11 @@ def main():
             print('Correct!')
         else:
             print("'yes' is wrong answer ;(. Correct answer was 'no'.")
-            print("Let's try again, Bill!")
+            print(f"Let's try again, {name}")
             break
 
     if chek == 3:
-        print("Congratulations, Bill!")
+        print(f"Congratulations, {name}!")
 
 
 if __name__ == '__main__':
