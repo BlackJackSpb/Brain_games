@@ -7,4 +7,5 @@
 
 ## games:
 ### 1. game brain even:
+>The game is the definition of an even number
 <a href="https://asciinema.org/a/675214" target="_blank"><img src="https://asciinema.org/a/675214.svg" /></a>
