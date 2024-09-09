@@ -12,3 +12,5 @@
 <a href="https://asciinema.org/a/675214" target="_blank"><img src="https://asciinema.org/a/675214.svg" /></a>
 ### 2. game brain calc:
 >Math problem game
+
+<a href="https://asciinema.org/a/xE9tq5m7ZrDTyXtyEx9UYqw3q" target="_blank"><img src="https://asciinema.org/a/xE9tq5m7ZrDTyXtyEx9UYqw3q.svg" /></a>
