@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-from ..cli import welcome_user
+from .brain_games import brain
 from random import randint
 import prompt
 
 
 def main():
-    print('Welcome to the Brain Games!')
-    name = welcome_user()
+    name = brain()
     print("Answer 'yes' if number even otherwise answer 'no'.")
     chek = 0
 
