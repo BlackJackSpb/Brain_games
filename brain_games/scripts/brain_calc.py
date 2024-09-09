@@ -19,12 +19,11 @@ def main():
         print(f'Question: {random_numbers_1, random_sign, random_numbers_2}')
         players_answer = prompt.integer('Your answer: ')
 
-        if random_sign == '+' and players_answer == summa:
+        if random_sign == '+' and players_answer == summa or\
+            random_sign == '*' and players_answer == multiplication or\
+                random_sign == '-' and players_answer == difference:
             print('Correct!')
-        elif random_sign == '-' and players_answer == difference:
-            print('Correct!')
-        elif random_sign == '*' and players_answer == multiplication:
-            print('Correct!')
+
         else:
             if random_sign == '+':
                 print(f"'{players_answer}' is wrong answer ;(. Correct answe"
