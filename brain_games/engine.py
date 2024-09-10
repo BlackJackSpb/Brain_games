@@ -15,7 +15,7 @@ def play(module):
         if user_answer == correct_answer:
             print('Correct!')
         else:
-            print(f"{answer} is wrong answer ;(."
+            print(f"{user_answer} is wrong answer ;(."
                   f"Correct answer was {correct_answer}"
                   f"\nLet's try again, {name}!")
             return

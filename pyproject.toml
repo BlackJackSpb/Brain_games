@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "0.1.1"
+version = "0.1.2"
 description = ""
 authors = ["Rystzov <rystzov1995@yandex.ru>"]
 readme = "README.md"
@@ -17,6 +17,7 @@ prompt = "^0.4.0"
 brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:main"
 brain-calc = "brain_games.scripts.brain_calc:main"
+brain-gcd = "brain_games.scripts.brain_gcd:main"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^7.1.1"
