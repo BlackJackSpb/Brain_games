@@ -9,8 +9,7 @@ def generate_question_and_answer():
 
     def prime(numbers):
 
-        half_the_numbers = int(numbers / 2 + 1)
-        for i in range(2, half_the_numbers + 1):
+        for i in range(2, numbers // 2 + 1):
             if numbers % i == 0:
                 return False
         return True
