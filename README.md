@@ -22,7 +22,7 @@
 >The essence of the game: the player is shown a series of numbers that forms an arithmetic progression with one number missing. The player must determine the missing number.
 
 <>
-### 5. Game "":
->The essence of the game: 
+### 5. Game "Is the number prime?":
+>The essence of the game: the user is shown a number. Answer "yes" if given number is prime. Otherwise answer "no".
 
 <>
