@@ -1,8 +1,6 @@
 from random import randint
 
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-START = 1
-END = 100
 
 
 def generate_question_and_answer():
@@ -14,12 +12,9 @@ def generate_question_and_answer():
                 return False
         return True
 
-    number = randint(START, END)
+    number = randint(1, 100)
     question = f'Question: {number}'
 
-    if prime(number):
-        correct_answer = 'yes'
-    else:
-        correct_answer = 'no'
+    correct_answer = 'yes' if prime(number) else 'no'
 
     return question, correct_answer
