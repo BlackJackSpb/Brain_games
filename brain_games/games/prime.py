@@ -9,17 +9,13 @@ def generate_question_and_answer():
 
     def prime(numbers):
 
-        chek = 0
-        half_the_numbers = int((numbers + 1) / 2)
+        half_the_numbers = int((numbers + 1) / 2 + 1)
 
-        for i in range(1, half_the_numbers + 1):
+        for i in range(2, half_the_numbers):
             if numbers % i == 0:
-                chek += 1
+                return False
 
-        if chek == 1:
-            return True
-        else:
-            return False
+        return True
 
     number = randint(START, END)
     question = f'Question: {number}'
