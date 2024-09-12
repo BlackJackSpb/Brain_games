@@ -17,12 +17,12 @@
 ### 3. Game "GCD":
 >The essence of the game: the user is shown two random numbers, for example, “25” and “50”. The user must calculate and enter the greatest common divisor of these numbers.
 
-<>
+<a href="https://asciinema.org/a/1C2gLE9tovo4pOGaj3TXbLrjm" target="_blank"><img src="https://asciinema.org/a/1C2gLE9tovo4pOGaj3TXbLrjm.svg" /></a>
 ### 4. Game "Arithmetic progression":
 >The essence of the game: the player is shown a series of numbers that forms an arithmetic progression with one number missing. The player must determine the missing number.
 
-<>
+<a href="https://asciinema.org/a/hKJqmuSJVK75xpUQtpYhlrosc" target="_blank"><img src="https://asciinema.org/a/hKJqmuSJVK75xpUQtpYhlrosc.svg" /></a>
 ### 5. Game "Is the number prime?":
 >The essence of the game: the user is shown a number. Answer "yes" if given number is prime. Otherwise answer "no".
 
-<>
+<a href="https://asciinema.org/a/675741" target="_blank"><img src="https://asciinema.org/a/675741.svg" /></a>
