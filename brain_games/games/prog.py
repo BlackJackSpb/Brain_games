@@ -15,7 +15,7 @@ def generate_question_and_answer():
     start = randint(START, END)
     step = randint(START_STEP, END_STEP)
     progression = [start]
-    correct = randint(0, step)
+    correct = randint(0, step - 1)
 
     for _ in range(progression_size):
         start += step
