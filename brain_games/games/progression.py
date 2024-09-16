@@ -2,11 +2,11 @@ from random import randint
 
 DESCRIPTION = 'What number is missing in the progression?'
 START_STEP = 1
-END_STEP = 9
+END_STEP = 10
 START = 1
 END = 100
 START_SIZE = 4
-END_SIZE = 9
+END_SIZE = 8
 
 
 def generate_question_and_answer():
