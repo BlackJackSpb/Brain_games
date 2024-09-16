@@ -2,7 +2,7 @@ from random import randint
 
 DESCRIPTION = 'What number is missing in the progression?'
 START_STEP = 1
-END_STEP = 10
+END_STEP = 9
 START = 1
 END = 100
 START_SIZE = 4
