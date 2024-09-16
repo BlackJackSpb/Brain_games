@@ -1,9 +1,9 @@
 import prompt
-from brain_games.scripts.brain_games import brain
+from brain_games.cli import welcome_user
 
 
 def play(module):
-    name = brain()
+    name = welcome_user()
     print(module.DESCRIPTION)
 
     for _ in range(3):
