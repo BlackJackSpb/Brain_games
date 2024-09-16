@@ -8,8 +8,8 @@ brain-calc:
 	poetry run brain-calc
 brain-gcd:
 	poetry run brain-gcd
-brain-prog:
-	poetry run brain-prog
+brain-progression:
+	poetry run brain-progression
 brain-prime:
 	poetry run brain-prime
 build:
