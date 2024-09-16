@@ -10,7 +10,7 @@ def generate_question_and_answer():
     sign = choice(['+', '-', '*'])
     number1 = randint(START, END)
     number2 = randint(START, END)
-    question = f'{number1}{sign}{number2}'
+    question = f'{number1} {sign} {number2}'
 
     if sign == '+':
         correct_answer = number1 + number2
