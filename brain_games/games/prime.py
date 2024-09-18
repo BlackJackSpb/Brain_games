@@ -7,7 +7,7 @@ END = 100
 
 def generate_question_and_answer():
     number = randint(START, END)
-    question = f'Question: {number}'
+    question = f'{number}'
     correct_answer = 'yes' if is_prime(number) else 'no'
     return question, correct_answer
 
