@@ -2,12 +2,12 @@ import prompt
 from brain_games.cli import welcome_user
 
 
-def play(module):
+def play(game):
     name = welcome_user()
-    print(module.DESCRIPTION)
+    print(game.DESCRIPTION)
 
     for _ in range(3):
-        question, correct_answer = module.generate_question_and_answer()
+        question, correct_answer = game.generate_question_and_answer()
 
         print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ')
