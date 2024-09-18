@@ -1,11 +1,11 @@
 import prompt
-from brain_games.cli import welcome_user
 
 ROUND = 3
 
 
 def play(game):
-    name = welcome_user()
+    name = prompt.string('May I have your name? ')
+    print(f'Hello, {name}!')
     print(game.DESCRIPTION)
 
     for _ in range(ROUND):
