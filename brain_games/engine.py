@@ -1,12 +1,14 @@
 import prompt
 from brain_games.cli import welcome_user
 
+ROUND = 3
+
 
 def play(game):
     name = welcome_user()
     print(game.DESCRIPTION)
 
-    for _ in range(3):
+    for _ in range(ROUND):
         question, correct_answer = game.generate_question_and_answer()
 
         print(f'Question: {question}')
