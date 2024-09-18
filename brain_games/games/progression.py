@@ -12,14 +12,14 @@ END_SIZE = 10
 def generate_question_and_answer():
 
     progression_size = randint(START_SIZE, END_SIZE)
-    start = randint(START, END)
     step = randint(START_STEP, END_STEP)
+    start = randint(START, END)
+    end = start + (step * progression_size)
     progression = []
     correct = randint(0, progression_size - 1)
 
-    for _ in range(progression_size):
-        progression.append(start)
-        start += step
+    for number in range(start, end, step):
+        progression.append(number)
 
     correct_answer = progression[correct]
     progression[correct] = '..'
