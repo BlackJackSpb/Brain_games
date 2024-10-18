@@ -3,7 +3,7 @@
 [![Actions Status](https://github.com/BlackJackSpb/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/BlackJackSpb/python-project-49/actions)
 # Brain games:
 
-"Mind games" is a set of five console games based on the principle of popular mobile applications for brain development. In each game, questions are asked that need to be answered correctly. After three correct answers, it is considered that the game is over. Incorrect answers end the game and offer to go through it again.
+"Brain games" is a set of five console games based on the principle of popular mobile applications for brain development. In each game, questions are asked that need to be answered correctly. After three correct answers, it is considered that the game is over. Incorrect answers end the game and offer to go through it again.
 
 ## games:
 ### 1. Game: “Parity Check”:
